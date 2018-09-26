@@ -1,0 +1,88 @@
+body{
+    background-color: whitesmoke;
+}
+
+#titulo{
+    background-color: darkseagreen;
+    max-width: auto;
+    padding: 50px;
+    font-family: Ubuntu;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.procura{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#envia{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+    background-color: darkseagreen;
+}
+
+#envia:hover{
+    color: black;
+    background-color: greenyellow;
+    transition-duration: 1s;
+}
+
+#lupa{
+    float: left;
+}
+
+hr{
+    border: solid 1px;
+    color: darkgray;
+    box-shadow: 5px 2px 5px rgba(0,0,0,0.5);
+}
+
+.Listproduto{
+    float: left;
+    padding: 50px;
+    max-height: 90px;
+    max-width: auto;
+    border: solid black 1px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.imgprod{
+    margin-top: -30px;
+    padding: 20px;
+    border: solid darkgray 3px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.descricao{
+    font-family: Open Sans;
+    margin-top: 0px;
+    float: left;
+    border: solid darkgray 1px;
+    padding: 15px 15px;
+    max-width: auto;
+    max-height: 70px;
+    margin-left: 200px;
+}
+
+.nomeprod{
+    font-family: Open Sans;
+    margin-top: -45px;
+    float: left;
+    margin-left: 200px;
+    max-width: auto;
+}
+
+.linkloja{
+    font-family: Ubuntu;
+    margin-left: 200px;
+    float: right;
+}
